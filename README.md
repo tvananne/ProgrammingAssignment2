@@ -1,3 +1,6 @@
+### Taylor Van Anne - Assignment 2
+This is my assignment2 submission for the R Programming Coursera Course.
+
 ### Introduction
 
 This second programming assignment will require you to write an R
