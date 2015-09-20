@@ -1,6 +1,18 @@
 ### Taylor Van Anne - Assignment 2
 This is my assignment2 submission for the R Programming Coursera Course.
 
+This script demonstrates how to cache a calculation, check if a calculation has been
+stored recently, and uses the cached calculation instead of recalculating
+
+## makeCacheMatrix
+This function takes in a matrix, sets the inverse placeholder to NULL, and
+holds the setinv and getinv functions. If the set() subfunction is used, it
+will restore the inverse value to NULL.
+
+## cacheSolve
+This function tests to see if a value has been cached. If so, it will
+return that cached value. If not, it will calculate the inverse of the matrix and return
+
 ### Introduction
 
 This second programming assignment will require you to write an R
